@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #E5E5E5;
+    
+}
+main{
+    display: flex;   
+    align-items: center; 
+    flex-direction: column;
+}
+.container{
+    background-color: white;
+    width: 870px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    /* border: 2px solid red; */
+
+}
+.player-part{
+    margin-bottom: 30px;
+}
+.player-heading{
+    color:#562EFF;
+    padding-top: 13px;
+    margin-bottom: 40px;
+
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    /* border: 2px solid green; */
+}
+.player{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    margin-right: 16px;
+    
+}
+hr{
+    border: 1px solid #D1D1D1;
+    /* border: 1px solid red; */
+
+}
+
+/*---------- Blog Part style-----/ */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog{
+    display: flex;
+    /* align-items: center; */
+
+}
+.blog-images img{
+    width: 177px;
+    height: 117px;
+    margin-right: 16px;
+}
+.author{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
+}
+
+/* Latest course part */
+.all-courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    /* border:2px solid red; */
+}
+.course-box{
+    width: 252.42px;
+    height: 270px;
+    padding:12px 14px 12px 0px;
+    /* border:2px solid red; */
+}
+.course-box .course-thumblain img{
+    width: 224px;
+    height: 104px;
+}
+.about-course h3{
+    margin-bottom: 0px;
+}
+.about-course p{
+    margin-top: 7px;
+}
+.star,.about-course p{
+    color: #FF4A60;
+}
+.course-rating{
+    display: flex;
+    justify-content: space-between;
+}
+.fas.fill{
+    color: yellow;
+}
+.fas.blank{
+    color:thistle;
+}
+.rating-number p{
+    margin:0;
+}
